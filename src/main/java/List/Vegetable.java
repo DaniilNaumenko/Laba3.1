@@ -1,4 +1,4 @@
-package Enumeration;
+package List;
 
 public enum Vegetable {
     CARROT,

@@ -1,4 +1,4 @@
-package Object;
+package CookingFacilities;
 
 import org.junit.After;
 import org.junit.Before;

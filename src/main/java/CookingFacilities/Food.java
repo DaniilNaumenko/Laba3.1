@@ -1,8 +1,8 @@
-package Object;
+package CookingFacilities;
 
-import Enumeration.Color;
-import Enumeration.Taste;
-import Enumeration.Vegetable;
+import List.Color;
+import List.Taste;
+import List.Vegetable;
 
 public class Food extends Item {
     private Taste taste;

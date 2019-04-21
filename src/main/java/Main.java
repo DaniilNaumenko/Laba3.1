@@ -1,5 +1,5 @@
-import People.*;
-        import Object.Food;
+import PeopleForTasting.*;
+        import CookingFacilities.Food;
 
 
         import javafx.application.Application;
@@ -42,7 +42,7 @@ public class Main extends Application {
 */
     @Override
     public void start (Stage primaryStage) {
-        final Proger proger = new Proger ("");
+        final Programmer programmer = new Programmer("");
         final Cook cook = new Cook ("");
         final Farmer farmer = new Farmer ("");
 
@@ -124,7 +124,7 @@ public class Main extends Application {
         }));
         BeatProger.setOnMouseClicked((new EventHandler<MouseEvent>() {
             public void handle(MouseEvent event) {
-                proger.eat(foodList);
+                programmer.eat(foodList);
                 List.remove(List.size() - 1);
                 ListFood.setItems(List);
             }
@@ -132,7 +132,7 @@ public class Main extends Application {
 
         Bcode.setOnMouseClicked((new EventHandler<MouseEvent>() {
             public void handle(MouseEvent event) {
-                console.setText(proger.coding());
+                console.setText(programmer.coding());
             }
         }));
         TfoodName.setOnKeyPressed((new EventHandler<KeyEvent>() {

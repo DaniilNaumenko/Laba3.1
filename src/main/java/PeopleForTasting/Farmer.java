@@ -1,14 +1,14 @@
-package People;
+package PeopleForTasting;
 
-import Object.Food;
-import Object.Veget;
+import CookingFacilities.Food;
+import CookingFacilities.Veget;
 import javafx.scene.control.Alert;
 
 import java.util.ArrayList;
 
 public class Farmer extends Human {
 
-    public Object water;
+
     private int planted;
     private int watered;
     private ArrayList<Veget> vegetable = new ArrayList<Veget>();

@@ -1,6 +1,6 @@
-package People;
+package PeopleForTasting;
 
-import Object.Food;
+import CookingFacilities.Food;
 
 import java.util.ArrayList;
 

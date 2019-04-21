@@ -1,21 +1,20 @@
-package People;
+package PeopleForTasting;
 
-import Object.Food;
+import CookingFacilities.Food;
 import javafx.scene.control.Alert;
 import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Random;
 
-public class Proger extends Human {
+public class Programmer extends Human {
     private static final int RAND_SIZE = 150;
     private final int MIN_RAND = 50;
     private final String alphabet = ("QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890(){}[]<>=!,");
 
-    public Proger() {
+    public Programmer() {
         super();
     }
 
-    public Proger (String name) {
+    public Programmer(String name) {
         super (name);
     }
 

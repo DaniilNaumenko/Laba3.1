@@ -1,4 +1,4 @@
-package People;
+package PeopleForTasting;
 
 import org.junit.After;
 import org.junit.Before;
@@ -7,15 +7,15 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
-public class ProgerTest {
+public class ProgrammerTest {
     @Test(expected = IllegalArgumentException.class)
     public void testNullArg() throws Exception {
-        new Proger().eat(null);
+        new Programmer().eat(null);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testEmptyList() throws Exception {
-        new Proger().eat(new ArrayList());
+        new Programmer().eat(new ArrayList());
     }
 
     @Before
@@ -28,13 +28,13 @@ public class ProgerTest {
 
     @Test
     public void shouldReturnNonNullValue() {
-        Proger proger = new Proger();
-        assertNotNull(proger.coding());
+        Programmer programmer = new Programmer();
+        assertNotNull(programmer.coding());
     }
 
     @Test
     public void shouldReturnStringWithLengthMoreTHanOne(){
-        Proger proger = new Proger();
-        assertTrue(proger.coding().length()>1);
+        Programmer programmer = new Programmer();
+        assertTrue(programmer.coding().length()>1);
     }
 }
