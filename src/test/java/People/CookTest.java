@@ -1,4 +1,4 @@
-package People;
+package PeopleForTasting;
 
 import org.junit.Test;
 import java.util.ArrayList;

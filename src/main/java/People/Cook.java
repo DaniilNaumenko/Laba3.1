@@ -1,8 +1,8 @@
-package People;
+package PeopleForTasting;
 
-import Enumeration.Taste;
-import Object.Food;
-import Object.Veget;
+import List.Taste;
+import CookingFacilities.Food;
+import CookingFacilities.Veget;
 import javafx.scene.control.Alert;
 
 import java.util.ArrayList;

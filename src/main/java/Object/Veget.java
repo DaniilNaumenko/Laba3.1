@@ -1,7 +1,7 @@
-package Object;
+package CookingFacilities;
 
-import Enumeration.Color;
-import Enumeration.Vegetable;
+import List.Color;
+import List.Vegetable;
 
 import java.util.Random;
 

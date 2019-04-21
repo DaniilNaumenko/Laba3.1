@@ -1,5 +1,5 @@
-import People.*;
-        import Object.Food;
+import PeopleForTasting.*;
+        import CookingFacilities.Food;
 
 
         import javafx.application.Application;

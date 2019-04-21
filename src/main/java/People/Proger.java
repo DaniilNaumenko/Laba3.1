@@ -1,6 +1,6 @@
-package People;
+package PeopleForTasting;
 
-import Object.Food;
+import CookingFacilities.Food;
 import javafx.scene.control.Alert;
 import java.util.ArrayList;
 import java.util.Objects;
