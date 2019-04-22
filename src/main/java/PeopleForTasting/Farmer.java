@@ -5,6 +5,7 @@ import CookingFacilities.Veget;
 import javafx.scene.control.Alert;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Farmer extends Human {
 
@@ -72,7 +73,7 @@ public class Farmer extends Human {
         vegetable.remove(vegetable.size()-1);
     }
 
-    public void eat(ArrayList<Food> foodList) {
+    public void eat(List<Food> foodList) {
         if (foodList == null || foodList.isEmpty()) {
             throw new IllegalArgumentException("The list of dishes is empty");
         } else {

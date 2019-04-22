@@ -3,6 +3,7 @@ package PeopleForTasting;
 import CookingFacilities.Food;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Human {
     private String name;
@@ -23,5 +24,5 @@ public abstract class Human {
         return name;
     }
 
-    abstract void eat (ArrayList<Food> foodList);
+    abstract void eat (List<Food> foodList);
 }

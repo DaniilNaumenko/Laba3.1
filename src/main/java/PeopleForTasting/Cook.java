@@ -6,6 +6,7 @@ import CookingFacilities.Veget;
 import javafx.scene.control.Alert;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Cook extends Human {
@@ -17,7 +18,7 @@ public class Cook extends Human {
         super (name);
     }
 
-    public void cook (ArrayList<Food> foods, String name, Veget veget) {
+    public void cook (List<Food> foods, String name, Veget veget) {
         int rand = new Random().nextInt(4);
         Food f = new Food(name);
         switch (rand) {
@@ -27,10 +28,10 @@ public class Cook extends Human {
             case 3: f.setTaste(Taste.BITTER); break;
         }
         f.setVeget(veget);
-        foods.add (foods.size(), f);
+        foods.add(f);
     }
 
-    public void eat(ArrayList<Food> foodList) {
+    public void eat(List<Food> foodList) {
         if (foodList == null||foodList.isEmpty()) {
             throw new IllegalArgumentException("The list of dishes is empty");
         }
