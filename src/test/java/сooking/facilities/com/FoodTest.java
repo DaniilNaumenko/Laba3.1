@@ -1,4 +1,4 @@
-package CookingFacilities;
+package сooking.facilities.com;
 
 import org.junit.After;
 import org.junit.Before;

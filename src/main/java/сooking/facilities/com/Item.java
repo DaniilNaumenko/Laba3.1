@@ -1,4 +1,4 @@
-package CookingFacilities;
+package сooking.facilities.com;
 
 public abstract class Item {
     private String name;

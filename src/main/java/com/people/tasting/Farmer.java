@@ -1,7 +1,7 @@
-package PeopleForTasting;
+package com.people.tasting;
 
-import CookingFacilities.Food;
-import CookingFacilities.Veget;
+import сooking.facilities.com.Food;
+import сooking.facilities.com.Veget;
 import javafx.scene.control.Alert;
 
 import java.util.ArrayList;

@@ -1,8 +1,8 @@
-package CookingFacilities;
+package сooking.facilities.com;
 
-import List.Color;
-import List.Taste;
-import List.Vegetable;
+import list.com.Color;
+import list.com.Taste;
+import list.com.Vegetable;
 
 public class Food extends Item {
     private Taste taste;

@@ -1,4 +1,4 @@
-package PeopleForTasting;
+package com.people.tasting;
 
 import org.junit.After;
 import org.junit.Before;

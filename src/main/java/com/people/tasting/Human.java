@@ -1,8 +1,7 @@
-package PeopleForTasting;
+package com.people.tasting;
 
-import CookingFacilities.Food;
+import сooking.facilities.com.Food;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Human {

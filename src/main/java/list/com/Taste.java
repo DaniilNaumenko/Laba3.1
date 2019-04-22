@@ -1,4 +1,4 @@
-package List;
+package list.com;
 
 public enum Taste {
     SWEET,

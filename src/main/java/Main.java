@@ -1,5 +1,5 @@
-import PeopleForTasting.*;
-        import CookingFacilities.Food;
+import com.people.tasting.*;
+        import сooking.facilities.com.Food;
 
 
         import javafx.application.Application;
@@ -43,7 +43,7 @@ public class Main extends Application {
     @Override
     public void start (Stage primaryStage) {
         final Programmer programmer = new Programmer("");
-        final Cook cook = new Cook ("");
+        /*final Cook cook = new Cook ("");*/
         final Farmer farmer = new Farmer ("");
 
         final ArrayList<Food> foodList = new ArrayList<Food>();
@@ -98,7 +98,7 @@ public class Main extends Application {
                     throw new IllegalArgumentException("You didn't enter the name of the dish or the farmer didn't grow a crop");
                 }
                 else {
-                    cook.cook(foodList, TfoodName.getText(), farmer.getLast());
+                    /*cook.cook(foodList, TfoodName.getText(), farmer.getLast());*/
                     List.add (TfoodName.getText());
                     farmer.deleteVeget();
                     ListFood.setItems(List);
@@ -110,7 +110,7 @@ public class Main extends Application {
 
         BeatCook.setOnMouseClicked((new EventHandler<MouseEvent>() {
             public void handle(MouseEvent event) {
-                cook.eat(foodList);
+                /*cook.eat(foodList);*/
                 List.remove(List.size() - 1);
                 ListFood.setItems(List);
             }
@@ -139,7 +139,7 @@ public class Main extends Application {
             @Override
             public void handle(KeyEvent event) {
                 if (event.getCode()== KeyCode.ENTER) {
-                    cook.cook(foodList ,TfoodName.getText(), farmer.getLast());
+                    /*cook.cook(foodList ,TfoodName.getText(), farmer.getLast());*/
                     List.add (TfoodName.getText());
                     farmer.deleteVeget();
                     TfoodName.setText("");

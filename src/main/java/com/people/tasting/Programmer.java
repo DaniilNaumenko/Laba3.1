@@ -1,8 +1,9 @@
-package PeopleForTasting;
+package com.people.tasting;
 
-import CookingFacilities.Food;
+import сooking.facilities.com.Food;
 import javafx.scene.control.Alert;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Programmer extends Human {
@@ -16,6 +17,11 @@ public class Programmer extends Human {
 
     public Programmer(String name) {
         super (name);
+    }
+
+    @Override
+    void eat(List<Food> foodList) {
+
     }
 
     public String coding() {

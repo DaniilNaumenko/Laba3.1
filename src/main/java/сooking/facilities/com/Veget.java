@@ -1,7 +1,7 @@
-package CookingFacilities;
+package сooking.facilities.com;
 
-import List.Color;
-import List.Vegetable;
+import list.com.Color;
+import list.com.Vegetable;
 
 import java.util.Random;
 
